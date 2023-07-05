@@ -14,7 +14,7 @@ This project provides a graphical user interface (GUI) for accessing a Linux ser
 
 To use this project, simply clone the repository and run the Flutter app. The app requires an SSH connection to a Linux server, which can be configured in the app settings.
 
-| ![Product 1](image/app/app2.png) |
+| ![Product 1](image/app/app1.png) |
 
 # images
 
