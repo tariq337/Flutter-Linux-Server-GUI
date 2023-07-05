@@ -1,16 +1,23 @@
-# guiapp
+# Flutter Linux Server GUI
 
-A new Flutter project.
+This project provides a graphical user interface (GUI) for accessing a Linux server through SSH. The interface is built using Flutter and does not require any additional libraries or installations on the server side.
+
+## Features
+
+- Secure SSH connection to Linux servers
+- Graphical user interface for easy server management and monitoring
+- Real-time server resource usage monitoring
+- Customizable terminal settings
+- No additional libraries or installations required on the server side
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To use this project, simply clone the repository and run the Flutter app. The app requires an SSH connection to a Linux server, which can be configured in the app settings.
 
-A few resources to get you started if this is your first Flutter project:
+| ![Product 1](image/app/app2.jpg) |
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# images
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+| :------: | :------: | :------: |
+| ![Product 2](image/app/app2.jpg) | ![Product 3](image/app/app3.jpg) | ![Product 4](image/app/app4.jpg) |
+

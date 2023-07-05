@@ -1,0 +1,45 @@
+ 
+ 
+ 
+ ProssesControll prossesControll = ProssesControll();
+ ..........
+  late Timer _timer;
+
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+
+    _timer = Timer.periodic(const Duration(seconds: 3), (timer) async {
+      await prossesControll.getProssers(() {
+        setState(() {});
+      });
+    });
+  }
+
+  @override
+  void dispose() {
+    // TODO: implement dispose
+    _timer.cancel();
+    super.dispose();
+  }
+
+  ...........
+
+ Expanded(
+  child: ListView.builder(
+    itemCount: prossesControll.prosses.length,
+    itemBuilder: (context, num) {
+      int index = prossesControll.prosses.length - num - 1;
+      return InkWell(
+        onTap: () {....},
+        child: Container(.....)
+        );
+      })),
+  ..............
+
+
+
+
+
+  
